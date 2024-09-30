@@ -12,7 +12,7 @@ export default function Home() {
 		<main className="overflow-hidden">
 			<Header />
 			<Hero />
-			{/* <Features /> */}
+			<Features />
 			{/* <Pricing /> */}
 			{/* <FAQ /> */}
 			{/* <Testimonials /> */}
