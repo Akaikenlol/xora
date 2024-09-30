@@ -1,11 +1,18 @@
 import React from "react";
 import { Link as LinkScroll } from "react-scroll";
 
-const NavLink = ({ title }: NavLinkProps) => {
+const NavLink = ({ title }: { title: string }) => {
 	return (
-		<div className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h-5">
+		<LinkScroll
+			to={title}
+			offset={-100}
+			spy
+			smooth
+			activeClass="nav-active"
+			className="base-bold text-p4 uppercase transition-colors duration-500 cursor-pointer hover:text-p1 max-lg:my-4 max-lg:h-5"
+		>
 			{title}
-		</div>
+		</LinkScroll>
 	);
 };
 
