@@ -11,6 +11,11 @@ declare type ButtonProps = {
 	markerFill?: string;
 };
 
+declare type FAQItemProps = {
+	item: any;
+	index: number;
+};
+
 export const features = [
 	{
 		id: "0",
