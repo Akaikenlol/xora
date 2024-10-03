@@ -1,8 +1,8 @@
-declare type NavLinkProps = {
+export type NavLinkProps = {
 	title: string;
 };
 
-declare type ButtonProps = {
+export type ButtonProps = {
 	icon?: string;
 	children: React.ReactNode;
 	href?: string;
@@ -11,9 +11,14 @@ declare type ButtonProps = {
 	markerFill?: string;
 };
 
-declare type FAQItemProps = {
+export type FAQItemProps = {
 	item: any;
 	index: number;
+};
+
+export type TestimonialItemProps = {
+	item: any;
+	containerClassName: string;
 };
 
 export const features = [

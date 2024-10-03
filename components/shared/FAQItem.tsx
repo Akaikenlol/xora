@@ -1,5 +1,6 @@
 "use client";
 
+import { FAQItemProps } from "@/constants";
 import { cn } from "@/lib/utils";
 import React, { useState } from "react";
 import SlideDown from "react-slidedown";

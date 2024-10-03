@@ -1,6 +1,7 @@
 import Marker from "./Marker";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { ButtonProps } from "@/constants";
 
 const Button = ({
 	icon,
