@@ -16,7 +16,7 @@ export default function Home() {
 			<Pricing />
 			<FAQ />
 			<Testimonials />
-			{/* <Download /> */}
+			<Download />
 			{/* <Footer /> */}
 		</main>
 	);
